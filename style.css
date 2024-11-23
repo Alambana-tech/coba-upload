@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.wrapper {
+
+}
+
+.body {
+
+}
+
+.logo {
+    width: 60px;
+    border-radius: 50%;
+    display: flex;
+}
+
+.nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #133E87;
+    padding: 5px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    border-bottom: 1px solid white;
+}
+
+.nama-website {
+    color: white;
+    font-family: 'comic sans ms';
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav ul li {
+    padding: 15px;
+}
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border: 10px;
+    border-color: white;
+}
+
+.nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.kolom .deskripsi {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #364f6b;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.home {
+    display: flex;
+}
+
+.contact {
+    display: flex;
+}
+
+.tutor {
+   text-align: center;
+   width: 100%;
+}
+
+.foto-tutor {
+    border-radius: 50%;
+    width: 250px;
+}
+
+.price {
+    display: flex;
+    text-align: left;
+}
+
+.p {
+    padding-bottom: 10px;
+}
